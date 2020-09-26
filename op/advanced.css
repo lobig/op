@@ -26,6 +26,7 @@ body {
 
 .navbar {
 	background-color: LavenderBlush;
+	display: block;
 }
 
 .navbar-logo {
@@ -61,10 +62,6 @@ body {
 .modal-body-searchbar {
    padding: 10px;
    background-color: LavenderBlush;
-}
-
-.navbar {
-   display: block;
 }
 
 .modal-bg {
