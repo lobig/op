@@ -37,7 +37,7 @@ if ($result->num_rows > 0) {
 			if(isset($_SESSION['login']))
 				echo '?login=1';
 			echo '" class="text-info">' . $row['Summary'] . '</a></h5>';
-			echo '<h4 class="m-0 price-color"><strong>' . $row['Price'] . ' Ft</strong></h4>';
+			echo '<h4 class="m-0 LightCoral"><strong>' . $row['Price'] . ' Ft</strong></h4>';
 			echo '<p class="m-0 font-weight-light small">' . $row['PlaceOfReceipt'] . ' | ';
 			echo $row['CreateDate'] . '</p>
 			<h5 class="small"><a href="category.php';

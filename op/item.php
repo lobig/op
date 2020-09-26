@@ -47,7 +47,7 @@ echo '
 			</div>
 		</div>
 		<div class="col-sm-7">
-			<h3 class="mb-1 mt-2 price-color"><strong>' . $row['Price'] . ' Ft</strong></h3>
+			<h3 class="mb-1 mt-2 LightCoral"><strong>' . $row['Price'] . ' Ft</strong></h3>
 			<p class="mb-2 font-weight-light">' . $row['PlaceOfReceipt'] . ' | ' . $row['CreateDate'] . '</p>
 			<h5 class="small"><a href="category.php';
 			if(isset($_SESSION['login']))
@@ -65,7 +65,7 @@ echo '
 <!-- galleryModal -->
 <div class="modal fade p-0" id="galleryModal" data-backdrop="true">
 	<div class="modal-dialog ml-auto full-height max-width-100">
-		<div class="modal-content border-radius-null full-height modal-bg">
+		<div class="modal-content rounded-0 full-height LavenderBlush">
 			<div id="carouselModalExampleIndicators" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselModalExampleIndicators" data-slide-to="0" class="active"></li>

@@ -26,12 +26,12 @@ $rows = count($the_big_array);
 for ($row = 0; $row < $rows; $row++) {
     $cols = count($the_big_array[$row]);
     $col = 0;
-    echo '<div class="card border-radius-null border-none">
-			<div class="card-header modal-bg border-radius-null p-0">
+    echo '<div class="card rounded-0 border-none">
+			<div class="card-header LavenderBlush rounded-0 p-0">
 			<button class="btn btn-block text-left p-0" type="button" data-toggle="collapse" data-target="#collapse' .$row . '"><h5 class="text-dark my-2">' . $the_big_array[$row][$col]. '</h5></button>
 		</div>
-		<div id="collapse' .$row . '" class="collapse modal-bg border-bottom-1px">
-			<div class="card-body levanderBlushLighter border-radius-null py-0 px-3">';
+		<div id="collapse' .$row . '" class="collapse LavenderBlush border-bottom-1px">
+			<div class="card-body levanderBlushLighter rounded-0 py-0 px-3">';
     $col = 1;
     while($col < $cols) {
         echo '

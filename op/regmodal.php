@@ -3,13 +3,13 @@
 echo '
 <!-- regModal -->
 <div class="modal fade modal-top p-0" id="regModal" data-backdrop="true">
-	<div class="modal-dialog m-auto">
-		<div class="modal-content border-radius-null">
-			<div class="modal-header border-radius-null modal-bg">
+	<div class="m-auto">
+		<div class="modal-content rounded-0">
+			<div class="modal-header rounded-0 LavenderBlush">
 			<h3 class="modal-title">Regisztráció</h3>
 				<button type="button" class="close" data-dismiss="modal" style="padding-top: 22px;"><span aria-hidden="true"><span class="fa fa-times"></span></span></button>
 			</div>
-			<div class="modal-body modal-bg">
+			<div class="modal-body LavenderBlush">
 				<div class="form-group">
 					<label for="regemail">E-mail cím:</label>
 					<input type="email" class="form-control" placeholder="" id="regemail">
@@ -28,7 +28,7 @@ echo '
 					<label class="form-check-label" for="defaultCheck1">A <a class="text-info" data-toggle="modal" data-target="#userModal">Felhasználói feltételek</a>et és az <a class="text-info" data-toggle="modal" data-target="#gdprModal">Adatvédelmi szabályzat</a>ot elfogadom.</label>
 				</div>
 			</div>
-			<div class="modal-footer modal-bg">
+			<div class="modal-footer LavenderBlush">
 				<div class="row">
 					<div class="col-sm">
 						<button type="button" class="btn btn-info btn-block" data-dismiss="modal">Regisztráció</button>
