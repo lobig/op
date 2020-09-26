@@ -28,7 +28,7 @@ $conn->close();
 <?php include 'header.php';?>
 
 <div class="container">
-	<h5 class="my-2 text-center">Legfrissebb hirdetÃ©sek</h5>
+	<h5 class="my-2 text-center">Legfrissebb hirdetések</h5>
 </div>
 
 <?php include 'searchlist.php';?>
