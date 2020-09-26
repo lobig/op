@@ -1,0 +1,256 @@
+.margintop5px {
+	margin-top: 5px;
+}
+	
+.margin0-w100 {
+	margin: 0;
+	width: 100%;
+}
+	
+.modal-dialog {
+    margin: 0;
+}
+  
+.modal-backdrop {
+	opacity:0 !important;
+}
+
+.image-height {
+    height: auto;
+}
+
+body {
+	background-color: LavenderBlush;
+	font-family: "Cairo";
+}
+
+.navbar {
+	background-color: LavenderBlush;
+}
+
+.navbar-logo {
+	max-height:30px;
+}
+
+.price-color {
+	color: LightCoral;
+}
+
+.hamburger-button, .hamburger-button:focus, .hamburger_button:active {
+	outline: none;
+	border: 0px;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.form-control:focus {
+	box-shadow: none;
+	border-color: #ced4da;
+}
+
+.search-icon, .search-icon:focus, .search-icon:active {
+	color: rgba(0,0,0,.5);
+}
+
+.border-radius-null {
+	border-radius: 0;
+}
+
+.modal-body-searchbar {
+   padding: 10px;
+   background-color: LavenderBlush;
+}
+
+.navbar {
+   display: block;
+}
+
+.modal-bg {
+   background-color: LavenderBlush;
+}
+
+.LavenderBlush {
+   background-color: LavenderBlush;
+}
+
+.levanderBlushLighter {
+   background-color: rgb(255, 245, 250); <!--világosabb, mint a LavenderBlush-->
+}
+
+.header-bg{
+   background-color: #17a2b8; <!--ez a btn-info színe-->
+}
+
+.modal-backdrop {
+    background-color: rgba(0,0,0,.0001) !important;
+}
+
+.padding-top-22px {
+    padding-top: 22px;
+}
+
+.modal.fade.modal-left .modal-dialog {
+	transform: translate(-100%, 0px);
+	opacity: 1;
+}
+
+.modal.show.modal-left .modal-dialog {
+	transform: none;
+	opacity: 1;
+}
+
+.modal.fade.modal-right .modal-dialog {
+	transform: translate(100%, 0px);
+	opacity: 1;
+}
+
+.modal.show.modal-right .modal-dialog {
+	transform: none;
+	opacity: 1;
+}
+
+.modal.fade.modal-top .modal-dialog {
+	transform: translate(0px, -100%);
+	opacity: 1;
+}
+
+.modal.show.modal-top .modal-dialog {
+	transform: none;
+	opacity: 1;
+}
+
+.modal.fade.modal-bottom .modal-dialog {
+	transform: translate(0px, 100%);
+	opacity: 1;
+}
+
+.modal.show.modal-bottom .modal-dialog {
+	transform: none;
+	opacity: 1;
+}
+
+<!-- ezzel felülírom a mozgás közbeni átlátszóságot	(elvileg)-->
+.fade:not(.show) {
+  opacity: 1;
+}
+
+.fade {
+  transition: opacity 0.15s linear;
+  opacity: 1;
+}
+
+.modal-dialog.max-width-100 {
+    max-width: 100%;
+}
+
+.modal {
+	overflow-y: auto;
+}
+
+.full-height {
+    min-height: 100vh;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.display-none {
+    display: none;
+}
+
+.border-top {
+	border-top: 1px solid #e9ecef;
+}
+
+.z-index9999 {
+	z-index: 9999;
+}
+
+.page-item.disabled .page-link {
+	background-color: rgb(255, 245, 250);
+}
+
+.page-item.active .page-link {
+	background-color: #17a2b8;
+	border-color: #17a2b8;
+	color: LavenderBlush;
+}
+
+.btn-google {
+  color: #fff;
+  background-color: #DB4437;
+  border-color: #DB4437;
+}
+
+.btn-facebook {
+  color: #fff;
+  background-color: #4267B2;
+  border-color: #4267B2;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.border-bottom-1px {
+	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.border-none {
+	border: 0;
+}
+
+.list-group-item {
+	border: 0;
+	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.object-fit-contain {
+	object-fit: contain;
+}
+
+.fixed-top-right {
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 1030;
+}
+
+.line-height-075 {
+	line-height: 0.75;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: none !important;
+}
+
+.image-wrapper
+{
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 0;
+  padding: 75% 0 0 0;
+  overflow: hidden;
+}
+
+.image
+{
+  position: absolute;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.resize-none {
+   resize: none !important;
+}
