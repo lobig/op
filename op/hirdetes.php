@@ -38,7 +38,7 @@ if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent))) {
 				<option value="">Válassz kategóriát</option>
 				<?php
 				include 'db_conn.php';
-				$result = mysqli_query($conn,"SELECT * FROM Category WHERE ParentCategoryID = 0");
+				$result = mysqli_query($conn,"SELECT * FROM Categories WHERE ParentID = 0");
 				while($row = mysqli_fetch_array($result)) {
 				?>
 				<option value="<?php echo $row['CategoryID'];?>"><?php echo $row['Name'];?></option>
