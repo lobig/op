@@ -7,7 +7,7 @@ $category_id = $_POST['category_id'];
 $result = mysqli_query($conn,"SELECT * FROM Category WHERE ParentID = $category_id");
 while($row = mysqli_fetch_array($result)) {
 ?>
-	<option value="<?php echo $row['CategoryID'];?>"><?php echo $row['Name'];?></option>
+	<option value="<?php echo $row['CategoryID'];?>"><?php echo $row['CategoryName'];?></option>
 <?php
 }
 ?>

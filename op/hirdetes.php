@@ -41,7 +41,7 @@ if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent))) {
 				$result = mysqli_query($conn,"SELECT * FROM Categories WHERE ParentID = 0");
 				while($row = mysqli_fetch_array($result)) {
 				?>
-				<option value="<?php echo $row['CategoryID'];?>"><?php echo $row['Name'];?></option>
+				<option value="<?php echo $row['CategoryID'];?>"><?php echo $row['CategoryName'];?></option>
 				<?php
 				}
 				?>
