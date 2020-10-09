@@ -5,6 +5,7 @@ if ($_SESSION['login'] == 0) {
 	unset($_SESSION['login']); 
 }
 
+/*
 include 'db_conn.php';
 
 $sql = '
@@ -15,7 +16,7 @@ ON AdvertisementsImages.AdvertisementId = Advertisements.AdvertisementId
 $result = $conn->query($sql);
 $num_rows = mysqli_num_rows($result);
 $conn->close();
-
+*/
 ?>
 
 <!DOCTYPE html>
