@@ -4,10 +4,10 @@ echo '
 <!-- footer -->
 <div class="container my-5">
 	<div class="text-center border-top py-3">
-		<a class="text-info pl-2 pr-2" data-toggle="modal" data-target="#aszfModal">Ă�SZF</a>
+		<a class="text-info pl-2 pr-2" data-toggle="modal" data-target="#aszfModal">ÁSZF</a>
 		<a class="text-info pl-2 pr-2" data-toggle="modal" data-target="#gyikModal">GY.I.K.</a>
-		<a class="text-info pl-2 pr-2" data-toggle="modal" data-target="#userModal">FelhasznĂˇlĂłi feltĂ©telek</a>
-		<a class="text-info pl-2 pr-2" data-toggle="modal" data-target="#gdprModal">AdatvĂ©delemi szabĂˇlyzat</a>
+		<a class="text-info pl-2 pr-2" data-toggle="modal" data-target="#userModal">Felhasználói feltételek</a>
+		<a class="text-info pl-2 pr-2" data-toggle="modal" data-target="#gdprModal">Adatvédelmi szabályzat</a>
 		<a class="text-info pl-2 pr-2" href="contact.php';
 					if(isset($_SESSION['login']))
 						echo '?login=1';
@@ -15,7 +15,7 @@ echo '
 		<a class="text-info pl-2 pr-2" href="aboutus.php';
 					if(isset($_SESSION['login']))
 						echo '?login=1';
-					echo '">RĂłlunk</a>
+					echo '">Rólunk</a>
 	</div>
 	<div class="text-center">
 		<p class="my-0 font-weight-bold">Kapcsolat</p>
@@ -28,11 +28,11 @@ echo '
 <!-- footer -->
 
 <!-- aszfModal -->
-<div class="modal fade modal-bottom p-0" id="aszfModal" data-backdrop="false">
+<div class="modal p-0" id="aszfModal" data-backdrop="false">
 	<div class="m-auto max-width-100">
 		<div class="modal-content rounded-0">
 			<div class="modal-header">
-				<h3 class="modal-title">Ă�ltalĂˇnos szerzĹ‘dĂ©si feltĂ©telek</h3>
+				<h3 class="modal-title">Általános szerződési feltételek</h3>
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="fa fa-times"></span></span></button>
 			</div>
 			<div class="modal-body">
@@ -48,18 +48,18 @@ echo '
 				<p>Cras fermentum lorem a leo tempus mollis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc accumsan lorem nec est vestibulum commodo. Suspendisse porttitor vitae est quis commodo. Maecenas quis lobortis dui. Nulla nisl velit, dictum a elit eget, iaculis dapibus arcu. Nullam finibus est imperdiet metus accumsan, eget pharetra dui tincidunt. Nam nec iaculis purus. Maecenas tempus non libero non laoreet.</p>
 			</div>
 			<div class="modal-footer justify-content-center">
-				<button type="button" class="btn btn-info" data-dismiss="modal">BezĂˇrĂˇs</button>
+				<button type="button" class="btn btn-info" data-dismiss="modal">Bezárás</button>
 			</div>
 		</div>
 	</div>
 </div>
 
 <!-- gyikModal -->
-<div class="modal fade modal-bottom p-0" id="gyikModal" data-backdrop="false">
+<div class="modal p-0" id="gyikModal" data-backdrop="false">
 	<div class="m-auto max-width-100">
 		<div class="modal-content rounded-0">
 			<div class="modal-header">
-				<h3 class="modal-title">Gyakran ismĂ©telt kĂ©rdĂ©sek</h3>
+				<h3 class="modal-title">Gyakran ismételt kérdések</h3>
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="fa fa-times"></span></span></button>
 			</div>
 			<div class="modal-body">
@@ -75,18 +75,18 @@ echo '
 				<p>Cras fermentum lorem a leo tempus mollis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc accumsan lorem nec est vestibulum commodo. Suspendisse porttitor vitae est quis commodo. Maecenas quis lobortis dui. Nulla nisl velit, dictum a elit eget, iaculis dapibus arcu. Nullam finibus est imperdiet metus accumsan, eget pharetra dui tincidunt. Nam nec iaculis purus. Maecenas tempus non libero non laoreet.</p>
 			</div>
 			<div class="modal-footer justify-content-center">
-				<button type="button" class="btn btn-info" data-dismiss="modal">BezĂˇrĂˇs</button>
+				<button type="button" class="btn btn-info" data-dismiss="modal">Bezárás</button>
 			</div>
 		</div>
 	</div>
 </div>
 
 <!-- userModal -->
-<div class="modal fade modal-bottom p-0" id="userModal" data-backdrop="false">
+<div class="modal p-0" id="userModal" data-backdrop="false">
 	<div class="m-auto max-width-100">
 		<div class="modal-content rounded-0">
 			<div class="modal-header">
-				<h3 class="modal-title">FelhasznĂˇlĂłi feltĂ©telek</h3>
+				<h3 class="modal-title">Felhasználói feltételek</h3>
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="fa fa-times"></span></span></button>
 			</div>
 			<div class="modal-body">
@@ -102,7 +102,7 @@ echo '
 				<p>Cras fermentum lorem a leo tempus mollis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc accumsan lorem nec est vestibulum commodo. Suspendisse porttitor vitae est quis commodo. Maecenas quis lobortis dui. Nulla nisl velit, dictum a elit eget, iaculis dapibus arcu. Nullam finibus est imperdiet metus accumsan, eget pharetra dui tincidunt. Nam nec iaculis purus. Maecenas tempus non libero non laoreet.</p>
 			</div>
 			<div class="modal-footer justify-content-center">
-				<button type="button" class="btn btn-info" data-dismiss="modal">BezĂˇrĂˇs</button>
+				<button type="button" class="btn btn-info" data-dismiss="modal">Bezárás</button>
 			</div>
 		</div>
 	</div>
@@ -110,11 +110,11 @@ echo '
 
 
 <!-- gdprModal -->
-<div class="modal fade modal-bottom p-0" id="gdprModal" data-backdrop="false">
+<div class="modal p-0" id="gdprModal" data-backdrop="false">
 	<div class="m-auto max-width-100">
 		<div class="modal-content rounded-0">
 			<div class="modal-header">
-				<h3 class="modal-title">AdatvĂ©delemi szabĂˇlyzat</h3>
+				<h3 class="modal-title">Adatvédelmi szabályzat</h3>
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="fa fa-times"></span></span></button>
 			</div>
 			<div class="modal-body">
@@ -130,7 +130,7 @@ echo '
 				<p>Cras fermentum lorem a leo tempus mollis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc accumsan lorem nec est vestibulum commodo. Suspendisse porttitor vitae est quis commodo. Maecenas quis lobortis dui. Nulla nisl velit, dictum a elit eget, iaculis dapibus arcu. Nullam finibus est imperdiet metus accumsan, eget pharetra dui tincidunt. Nam nec iaculis purus. Maecenas tempus non libero non laoreet.</p>
 			</div>
 			<div class="modal-footer justify-content-center">
-				<button type="button" class="btn btn-info" data-dismiss="modal">BezĂˇrĂˇs</button>
+				<button type="button" class="btn btn-info" data-dismiss="modal">Bezárás</button>
 			</div>
 		</div>
 	</div>

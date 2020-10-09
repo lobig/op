@@ -2,7 +2,7 @@
 
 echo '
 <!-- regModal -->
-<div class="modal fade modal-top p-0" id="regModal" data-backdrop="true">
+<div class="modal p-0" id="regModal" data-backdrop="true">
 	<div class="m-auto">
 		<div class="modal-content rounded-0">
 			<div class="modal-header rounded-0 LavenderBlush">

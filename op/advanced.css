@@ -48,13 +48,13 @@ body {
 }
 
 .levanderBlushLighter {
-   background-color: rgb(255, 245, 250); /*világosabb, mint a LavenderBlush*/
+   background-color: rgb(255, 245, 250); /*vilï¿½gosabb, mint a LavenderBlush*/
 }
 
 .btn-info-color{
-   background-color: #17a2b8; /*ez a btn-info színe*/
+   background-color: #17a2b8; /*ez a btn-info szï¿½ne*/
 }
-
+/*
 .modal.fade.modal-left .modal-dialog {
 	transform: translate(-100%, 0px);
 	opacity: 1;
@@ -99,7 +99,7 @@ body {
   transition: opacity 0.15s linear;
   opacity: 1;
 }
-
+*/
 .modal-dialog.max-width-100 {
     max-width: 100%;
 }

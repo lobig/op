@@ -24,7 +24,7 @@ include 'searchmodal.php';
 
 echo '	
 <!-- menuModal -->
-<div class="modal fade modal-right p-0" id="menuModal" data-backdrop="true">
+<div class="modal p-0" id="menuModal" data-backdrop="true">
 	<div class="modal-dialog ml-auto full-height max-width-100">
 		<div class="modal-content rounded-0 full-height">
 			<div class="modal-header rounded-0 btn-info-color">
