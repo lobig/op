@@ -67,7 +67,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "4",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -88,7 +88,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "5",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -109,7 +109,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "6",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -130,7 +130,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "7",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -151,7 +151,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "8",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -172,7 +172,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "9",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -193,7 +193,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "10",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -214,7 +214,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "11",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -235,7 +235,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "12",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -256,7 +256,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "13",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -277,7 +277,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "14",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -298,7 +298,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "15",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -319,7 +319,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "16",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -340,7 +340,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "17",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -361,7 +361,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "18",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -382,7 +382,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "19",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -403,7 +403,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "20",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -424,7 +424,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "21",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -445,7 +445,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "22",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -466,7 +466,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "23",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -487,7 +487,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "24",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
@@ -508,7 +508,7 @@ $json = '
 },
 {
     "advertisement": {
-      "AdvertisementId": "3",
+      "AdvertisementId": "25",
       "UserId": "1",
       "CategoryId": "1",
       "Summary": "Gyerek cipő",
