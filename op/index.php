@@ -29,7 +29,7 @@ $conn->close();
 <?php include 'header.php';?>
 
 <div class="container">
-	<h5 class="my-2 text-center">Legfrissebb hirdetések</h5>
+	<h5 class="mb-2 mt-3 text-center">Legfrissebb hirdetések</h5>
 </div>
 
 <?php include 'searchlist.php';?>

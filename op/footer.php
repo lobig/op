@@ -28,9 +28,9 @@ echo '
 <!-- footer -->
 
 <!-- aszfModal -->
-<div class="modal p-0" id="aszfModal" data-backdrop="false">
-	<div class="m-auto max-width-100">
-		<div class="modal-content rounded-0">
+<div class="modal fade modal-bottom p-0" id="aszfModal" data-backdrop="false">
+	<div class="modal-dialog ml-auto full-height max-width-100">
+		<div class="modal-content rounded-0 full-height">
 			<div class="modal-header">
 				<h3 class="modal-title">Általános szerződési feltételek</h3>
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="fa fa-times"></span></span></button>
@@ -55,8 +55,8 @@ echo '
 </div>
 
 <!-- gyikModal -->
-<div class="modal p-0" id="gyikModal" data-backdrop="false">
-	<div class="m-auto max-width-100">
+<div class="modal fade modal-bottom p-0" id="gyikModal" data-backdrop="false">
+	<div class="modal-dialog ml-auto full-height max-width-100">
 		<div class="modal-content rounded-0">
 			<div class="modal-header">
 				<h3 class="modal-title">Gyakran ismételt kérdések</h3>
@@ -82,8 +82,8 @@ echo '
 </div>
 
 <!-- userModal -->
-<div class="modal p-0" id="userModal" data-backdrop="false">
-	<div class="m-auto max-width-100">
+<div class="modal fade modal-bottom p-0" id="userModal" data-backdrop="false">
+	<div class="modal-dialog ml-auto full-height max-width-100">
 		<div class="modal-content rounded-0">
 			<div class="modal-header">
 				<h3 class="modal-title">Felhasználói feltételek</h3>
@@ -110,8 +110,8 @@ echo '
 
 
 <!-- gdprModal -->
-<div class="modal p-0" id="gdprModal" data-backdrop="false">
-	<div class="m-auto max-width-100">
+<div class="modal fade modal-bottom p-0" id="gdprModal" data-backdrop="false">
+	<div class="modal-dialog ml-auto full-height max-width-100">
 		<div class="modal-content rounded-0">
 			<div class="modal-header">
 				<h3 class="modal-title">Adatvédelmi szabályzat</h3>

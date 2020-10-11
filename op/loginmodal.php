@@ -3,8 +3,8 @@
 
 echo '
 <!-- loginModal -->
-<div class="modal p-0" id="loginModal" data-backdrop="true">
-	<div class="m-auto">
+<div class="modal fade modal-top p-0" id="loginModal" data-backdrop="true">
+	<div class="modal-dialog ml-auto max-width-100">
 		<div class="modal-content rounded-0">
 			<div class="modal-header rounded-0 LavenderBlush">
 				<h3 class="modal-title">Bejelentkezés</h3>

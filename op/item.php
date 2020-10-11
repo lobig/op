@@ -1,19 +1,35 @@
 <?php
 
-include 'db_conn.php';
+$json = '
 
-$sql = '
-SELECT Advertisements.AdvertisementId, Advertisements.Summary, AdvertisementsImages.Image1, AdvertisementsImages.Image2, AdvertisementsImages.Image3, Advertisements.Price, Advertisements.PlaceOfReceipt, Advertisements.CreateDate, Advertisements.Description FROM Advertisements
-JOIN AdvertisementsImages
-ON AdvertisementsImages.AdvertisementId = Advertisements.AdvertisementId
-WHERE Advertisements.AdvertisementId = ' . $itemid
-;
-$result = $conn->query($sql);
-$row = $result->fetch_assoc();
+{
+     "advertisement": {
+      "AdvertisementId": "1",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Body",
+      "Description": "Body Body Body",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+}
+';
+
+$json = json_decode($json, true);
 
 echo '
 <div class="container">
-	<h4 class="m-0 text-center"><div class="text-info mb-2">' . $row['Summary'] . '</div></h4>
+	<h4 class="m-0 text-center"><div class="text-info mb-2">' . $json['advertisement']['Summary'] . '</div></h4>
 </div>
 
 <div class="container">
@@ -27,13 +43,13 @@ echo '
 				</ol>
 				<div class="carousel-inner rounded">
 					<div class="carousel-item active">
-						<a href="" data-toggle="modal" data-target="#galleryModal" class="image-wrapper"><img src="' . $row['Image1'] . '" class="rounded image" alt="..."></a>
+						<a href="" data-toggle="modal" data-target="#galleryModal" class="image-wrapper"><img src="' . '/uploadedImages/babacipo.jpg' . '" class="rounded image" alt="..."></a>
 					</div>
 					<div class="carousel-item">
-						<a href="" data-toggle="modal" data-target="#galleryModal" class="image-wrapper"><img src="' . $row['Image2'] . '" class="rounded image" alt="..."></a>
+						<a href="" data-toggle="modal" data-target="#galleryModal" class="image-wrapper"><img src="' . '/uploadedImages/babacipo.jpg'. '" class="rounded image" alt="..."></a>
 					</div>
 					<div class="carousel-item">
-						<a href="" data-toggle="modal" data-target="#galleryModal" class="image-wrapper"><img src="' . $row['Image3'] . '" class="rounded image" alt="..."></a>
+						<a href="" data-toggle="modal" data-target="#galleryModal" class="image-wrapper"><img src="' . '/uploadedImages/babacipo.jpg' . '" class="rounded image" alt="..."></a>
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -47,13 +63,13 @@ echo '
 			</div>
 		</div>
 		<div class="col-sm-7">
-			<h3 class="mb-1 mt-2 LightCoral"><strong>' . $row['Price'] . ' Ft</strong></h3>
-			<p class="mb-2 font-weight-light">' . $row['PlaceOfReceipt'] . ' | ' . $row['CreateDate'] . '</p>
+			<h3 class="mb-1 mt-2 LightCoral"><strong>' . $json['advertisement']['Price'] . ' Ft</strong></h3>
+			<p class="mb-2 font-weight-light">' . $json['advertisement']['PlaceOfReceipt'] . ' | ' . $json['advertisement']['CreateDate'] . '</p>
 			<h5 class="small"><a href="category.php';
 			if(isset($_SESSION['login']))
 				echo '?login=1';
 			echo '" class="text-info"><strong>' . '#kategórianév' . '</strong></a></h5>
-			<p class="font-weight-light">' . $row['Description'] . '</p>
+			<p class="font-weight-light">' . $json['advertisement']['Description'] . '</p>
 			<h5 class=""><strong>Elérhetőségek:</strong></h5>
 			<h5 class=""><span class="fa fa-phone mr-2"></span><button id="phonenumberbutton" class="btn btn-info btn-sm line-height-075" style="display: inline-block;"onclick="showPhoneNumber()">Mutat</button><div id="phonenumber" style="display: none;"><a class= "text-info" href="tel:+36304556788">+36304556788</a></div></h5>
 			<h5 class=""><span class="fa fa-envelope-square mr-2"></span><a class= "text-info" href="mailto:someone@example.com">footlocker@gmail.com</a></h5>
@@ -74,13 +90,13 @@ echo '
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<a href=""><img src="' . $row['Image1'] . '" class="d-block vh-100 vw-100 object-fit-contain" alt="..."></a>
+						<a href=""><img src="' . '/uploadedImages/babacipo.jpg' . '" class="d-block vh-100 vw-100 object-fit-contain" alt="..."></a>
 					</div>
 					<div class="carousel-item">
-						<img src="' . $row['Image2'] . '" class="d-block vh-100 vw-100 object-fit-contain" alt="...">
+						<img src="' . '/uploadedImages/babacipo.jpg'. '" class="d-block vh-100 vw-100 object-fit-contain" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="' . $row['Image3'] . '" class="d-block vh-100 vw-100 object-fit-contain" alt="...">
+						<img src="' . '/uploadedImages/babacipo.jpg' . '" class="d-block vh-100 vw-100 object-fit-contain" alt="...">
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselModalExampleIndicators" role="button" data-slide="prev">

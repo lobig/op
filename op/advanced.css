@@ -20,7 +20,9 @@ body {
 	color: LightCoral;
 }
 
-.hamburger-button, .hamburger-button:focus, .hamburger_button:active {
+
+
+.page-link:focus, .page-link:active {
 	outline: none;
 	border: 0px;
 }
@@ -54,7 +56,7 @@ body {
 .btn-info-color{
    background-color: #17a2b8; /*ez a btn-info sz�ne*/
 }
-/*
+
 .modal.fade.modal-left .modal-dialog {
 	transform: translate(-100%, 0px);
 	opacity: 1;
@@ -99,9 +101,13 @@ body {
   transition: opacity 0.15s linear;
   opacity: 1;
 }
-*/
+
 .modal-dialog.max-width-100 {
     max-width: 100%;
+}
+
+.w-85 {
+  width: 85% !important;
 }
 
 .modal {
@@ -136,6 +142,10 @@ body {
 	background-color: #17a2b8;
 	border-color: #17a2b8;
 	color: LavenderBlush;
+}
+
+.page-link {
+	color: #17a2b8;
 }
 
 .btn-google {

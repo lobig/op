@@ -211,6 +211,321 @@ $json = '
       "CreateDate": "2020-09-22 08:12:30",
       "LastModificationDate": "2020-09-22 08:12:30"
     }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
+},
+{
+    "advertisement": {
+      "AdvertisementId": "3",
+      "UserId": "1",
+      "CategoryId": "1",
+      "Summary": "Gyerek cipő",
+      "Description": "27-es gyerekcipő áron alul eladó",
+      "State": "1",
+      "SubState": "1",
+      "AdvertisementType": "1",
+      "Tags": "",
+      "Price": "500",
+      "Quantity": "1",
+      "IsFree": "0",
+      "PlaceOfReceipt": "Maglód",
+      "Conditionz": "használt",
+      "CountOfViews": "1",
+      "CreateDate": "2020-09-22 08:12:30",
+      "LastModificationDate": "2020-09-22 08:12:30"
+    }
 }
 
 ]';
@@ -261,23 +576,6 @@ for ($i=0; $i<$limit; $i++) {
             </div>';
 }
 
-echo '
-<!-- pagination -->
-<nav>
-  <ul class="pagination justify-content-center mt-2">
-    <li class="page-item '; if ($prevpage == 0) {
-        echo 'disabled';
-    } echo '"><a class="page-link" href="?page=' . $prevpage . '">Előző</a></li>';
-for($j=1;$j<=$total_pages;$j++) {
-    echo '<li class="page-item '; if ($j == $page || $j == $_GET['page']) {
-        echo 'active';
-    } echo '"><a class="page-link" href="?page=' . $j . '">' . $j . '</a></li>';
-}
-echo '<li class="page-item '; if ($nextpage > $total_pages) {
-        echo 'disabled';
-    } echo '"><a class="page-link" href="?page=' . $nextpage . '">Következő</a></li>
-  </ul>
-</nav>
-<!-- pagination -->
-';
+include 'pagination.php';
+
 ?>

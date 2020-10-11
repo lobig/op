@@ -2,10 +2,10 @@
 
 echo '
 <!-- searchModal -->
-<div class="modal fade modal-top p-0" id="searchModal" data-backdrop="true">
-	<div class="m-auto max-width-100">
+<div class="modal fade modal-top p-0" id="searchModal" data-backdrop="false">
+	<div class="modal-dialog ml-auto max-width-100">
 		<div class="modal-content rounded-0">
-			<div class="modal-body modal-body-searchbar">
+			<div class="modal-body-searchbar">
 				<form action="search.php" method="get" autocomplete="on">
 				<div class="input-group">
 					<input type="text" class="form-control" placeholder="Keresés" name="search" id="search" autocomplete="on">';

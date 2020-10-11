@@ -24,9 +24,9 @@ include 'searchmodal.php';
 
 echo '	
 <!-- menuModal -->
-<div class="modal p-0" id="menuModal" data-backdrop="true">
-	<div class="modal-dialog ml-auto full-height max-width-100">
-		<div class="modal-content rounded-0 full-height">
+<div class="modal fade modal-right p-0" id="menuModal" data-backdrop="true">
+	<div class="modal-dialog ml-auto full-height w-85">
+		<div class="modal-content rounded-0 full-height LavenderBlush">
 			<div class="modal-header rounded-0 btn-info-color">
 ';
 
@@ -38,7 +38,7 @@ echo '
 echo '				
 				<button type="button" class="close text-light" data-dismiss="modal" style="padding-top: 22px;"><span aria-hidden="true"><span class="fa fa-times"></span></span></button>
 			</div>
-			<div class="modal-body LavenderBlush p-0">
+			<div class="LavenderBlush p-0">
 				<ul class="list-group rounded-0">
 ';
 
@@ -46,7 +46,7 @@ echo '
 		echo '<a href="hirdetes.php?login=1"><li class="list-group-item LavenderBlush"><h5 class="text-dark inline-block m-0">Hirdetés feladás</h5><span class="fa fa-chevron-circle-right pull-right mt-1 text-dark"></span></li></a>';
 
 echo '
-					<a data-toggle="modal" data-target="#babaruhak5086"><li class="list-group-item LavenderBlush"><h5 class="text-dark inline-block m-0">Baba ruhák 50-86</h5><span class="fa fa-chevron-right pull-right mt-1"></span></li></a>
+					<a data-toggle="modal" data-target="#babaruhak5086" data-dismiss="modal"><li class="list-group-item LavenderBlush"><h5 class="text-dark inline-block m-0">Baba ruhák 50-86</h5><span class="fa fa-chevron-right pull-right mt-1"></span></li></a>
 					<a data-toggle="modal" data-target="#lanyruhak92170"><li class="list-group-item LavenderBlush"><h5 class="text-dark inline-block m-0">Lány ruhák 92-170</h5><span class="fa fa-chevron-right pull-right mt-1"></span></li></a>
 					<a data-toggle="modal" data-target="#fiuruhak92170"><li class="list-group-item LavenderBlush"><h5 class="text-dark inline-block m-0">Fiú ruhák 92-170</h5><span class="fa fa-chevron-right pull-right mt-1"></span></li></a>
 					<a data-toggle="modal" data-target="#noiruhak"><li class="list-group-item LavenderBlush"><h5 class="text-dark inline-block m-0">Női ruhák</h5><span class="fa fa-chevron-right pull-right mt-1"></span></li></a>
@@ -75,12 +75,12 @@ echo '
 
 <!-- babaruhak5086 -->
 <div class="modal fade modal-right p-0" id="babaruhak5086" data-backdrop="true">
-	<div class="modal-dialog ml-auto full-height max-width-100">
+	<div class="modal-dialog ml-auto full-height w-85">
 		<div class="modal-content rounded-0 full-height">
 			<div class="modal-header rounded-0 btn-info-color">
-				<a class="text-light" data-dismiss="modal" ><h3 class="modal-title">Vissza</h3></a>
+				<a class="text-light" data-dismiss="modal" data-toggle="modal" data-target="#menuModal"><h3 class="modal-title">Vissza</h3></a>
 			</div>
-			<div class="modal-body LavenderBlush p-0">
+			<div class="LavenderBlush p-0">
 				<ul class="list-group rounded-0">
 ';
 
@@ -117,7 +117,7 @@ echo '
 			<div class="modal-header rounded-0 btn-info-color">
 				<a class="text-light" data-dismiss="modal" ><h3 class="modal-title">Vissza</h3></a>
 			</div>
-			<div class="modal-body LavenderBlush p-0">
+			<div class="LavenderBlush p-0">
 				<ul class="list-group rounded-0">
 ';
 
@@ -160,7 +160,7 @@ echo '
 			<div class="modal-header rounded-0 btn-info-color">
 				<a class="text-light" data-dismiss="modal" ><h3 class="modal-title">Vissza</h3></a>
 			</div>
-			<div class="modal-body LavenderBlush p-0">
+			<div class="LavenderBlush p-0">
 				<ul class="list-group rounded-0">
 ';
 
@@ -200,7 +200,7 @@ echo '
 			<div class="modal-header rounded-0 btn-info-color">
 				<a class="text-light" data-dismiss="modal" ><h3 class="modal-title">Vissza</h3></a>
 			</div>
-			<div class="modal-body LavenderBlush p-0">
+			<div class="LavenderBlush p-0">
 				<ul class="list-group rounded-0">
 ';
 
@@ -240,7 +240,7 @@ echo '
 			<div class="modal-header rounded-0 btn-info-color">
 				<a class="text-light" data-dismiss="modal" ><h3 class="modal-title">Vissza</h3></a>
 			</div>
-			<div class="modal-body LavenderBlush p-0">
+			<div class="LavenderBlush p-0">
 				<ul class="list-group rounded-0">
 ';
 
