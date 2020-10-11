@@ -34,7 +34,7 @@ $json = '
       "SubState": "1",
       "AdvertisementType": "1",
       "Tags": "",
-      "Price": "500",
+      "Price": "1000",
       "Quantity": "1",
       "IsFree": "0",
       "PlaceOfReceipt": "Maglód",
@@ -527,7 +527,6 @@ $json = '
       "LastModificationDate": "2020-09-22 08:12:30"
     }
 }
-
 ]';
 
 $json = json_decode($json, true);
