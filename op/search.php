@@ -8,21 +8,8 @@ if ($_SESSION['login'] == 0) {
 
 $searchinput = $_GET['search'];
 
-if ($searchinput != '') {
-	include 'db_conn.php';
-	$stmt = $conn->prepare("SELECT AdvertisementsImages.Image1, Advertisements.AdvertisementId, Advertisements.Summary, Advertisements.Price, Advertisements.PlaceOfReceipt, Advertisements.CreateDate FROM Advertisements
-	JOIN AdvertisementsImages
-	ON AdvertisementsImages.AdvertisementId = Advertisements.AdvertisementId
-	WHERE Advertisements.Summary like CONCAT('%',?,'%')");
-	$stmt->bind_param('s', $searchinput);
-	$stmt->execute();
-	$result = $stmt->get_result();
-	$num_rows = mysqli_num_rows($result);
-	$conn->close();
-}	else {
-		$num_rows = 0;
-	}
-
+$num_rows = 30;
+	
 ?>
 
 <!DOCTYPE html>

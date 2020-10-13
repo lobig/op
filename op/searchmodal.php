@@ -6,7 +6,7 @@ echo '
 	<div class="modal-dialog ml-auto max-width-100">
 		<div class="modal-content rounded-0">
 			<div class="modal-body-searchbar">
-				<form action="search.php" method="get" autocomplete="on">
+				<form action="../includes/search.php" method="get" autocomplete="on">
 				<div class="input-group">
 					<input type="text" class="form-control" placeholder="Keresés" name="search" id="search" autocomplete="on">';
 					if(isset($_SESSION['login']))

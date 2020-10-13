@@ -22,8 +22,8 @@
 <!-- title -->
 
 <div class="container">
-	<a href="index.php?login=0" class="text-info"><h5>Kijelentkezés</h5></a>
-	<a href="hirdetes.php?login=1" class="text-info"><h5>Hirdetés feladás</h5></a>
+	<a href="../index.php?login=0" class="text-info"><h5>Kijelentkezés</h5></a>
+	<a href="../includes/hirdetes.php?login=1" class="text-info"><h5>Hirdetés feladás</h5></a>
 </div>
 
 <?php include 'footer.php';?>

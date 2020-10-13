@@ -8,11 +8,11 @@ echo '
 		<a class="text-info pl-2 pr-2" data-toggle="modal" data-target="#gyikModal">GY.I.K.</a>
 		<a class="text-info pl-2 pr-2" data-toggle="modal" data-target="#userModal">Felhasználói feltételek</a>
 		<a class="text-info pl-2 pr-2" data-toggle="modal" data-target="#gdprModal">Adatvédelmi szabályzat</a>
-		<a class="text-info pl-2 pr-2" href="contact.php';
+		<a class="text-info pl-2 pr-2" href="../includes/contact.php';
 					if(isset($_SESSION['login']))
 						echo '?login=1';
 					echo '">Kapcsolat</a>
-		<a class="text-info pl-2 pr-2" href="aboutus.php';
+		<a class="text-info pl-2 pr-2" href="../includes/aboutus.php';
 					if(isset($_SESSION['login']))
 						echo '?login=1';
 					echo '">Rólunk</a>
@@ -30,7 +30,7 @@ echo '
 <!-- aszfModal -->
 <div class="modal fade modal-bottom p-0" id="aszfModal" data-backdrop="false">
 	<div class="modal-dialog ml-auto full-height max-width-100">
-		<div class="modal-content rounded-0 full-height">
+		<div class="modal-content rounded-0 full-height levanderBlushLighter">
 			<div class="modal-header">
 				<h3 class="modal-title">Általános szerződési feltételek</h3>
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="fa fa-times"></span></span></button>
@@ -57,7 +57,7 @@ echo '
 <!-- gyikModal -->
 <div class="modal fade modal-bottom p-0" id="gyikModal" data-backdrop="false">
 	<div class="modal-dialog ml-auto full-height max-width-100">
-		<div class="modal-content rounded-0">
+		<div class="modal-content rounded-0 full-height levanderBlushLighter">
 			<div class="modal-header">
 				<h3 class="modal-title">Gyakran ismételt kérdések</h3>
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="fa fa-times"></span></span></button>
@@ -84,7 +84,7 @@ echo '
 <!-- userModal -->
 <div class="modal fade modal-bottom p-0" id="userModal" data-backdrop="false">
 	<div class="modal-dialog ml-auto full-height max-width-100">
-		<div class="modal-content rounded-0">
+		<div class="modal-content rounded-0 full-height levanderBlushLighter">
 			<div class="modal-header">
 				<h3 class="modal-title">Felhasználói feltételek</h3>
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="fa fa-times"></span></span></button>
@@ -112,7 +112,7 @@ echo '
 <!-- gdprModal -->
 <div class="modal fade modal-bottom p-0" id="gdprModal" data-backdrop="false">
 	<div class="modal-dialog ml-auto full-height max-width-100">
-		<div class="modal-content rounded-0">
+		<div class="modal-content rounded-0 full-height levanderBlushLighter">
 			<div class="modal-header">
 				<h3 class="modal-title">Adatvédelmi szabályzat</h3>
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><span class="fa fa-times"></span></span></button>

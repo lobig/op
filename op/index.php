@@ -22,21 +22,21 @@ $conn->close();
 <!DOCTYPE html>
 <html lang="hu">
 
-<?php include 'htmlhead.php';?>
+<?php include 'includes/htmlhead.php';?>
 
 <body>
 
-<?php include 'header.php';?>
+<?php include 'includes/header.php';?>
 
 <div class="container">
 	<h5 class="mb-2 mt-3 text-center">Legfrissebb hirdetések</h5>
 </div>
 
-<?php include 'searchlist.php';?>
+<?php include 'includes/searchlist.php';?>
 
-<?php include 'footer.php';?>
+<?php include 'includes/footer.php';?>
 
-<?php include 'toastcookie.php';?>
+<?php include 'includes/toastcookie.php';?>
 
 </body>
 </html>
