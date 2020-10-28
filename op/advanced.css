@@ -50,11 +50,11 @@ body {
 }
 
 .levanderBlushLighter {
-   background-color: rgb(255, 245, 250); /*vil�gosabb, mint a LavenderBlush*/
+   background-color: rgb(255, 245, 250); /*világosabb, mint a LavenderBlush*/
 }
 
 .btn-info-color{
-   background-color: #17a2b8; /*ez a btn-info sz�ne*/
+   background-color: #17a2b8; /*ez a btn-info színe*/
 }
 
 .modal.fade.modal-left .modal-dialog {
@@ -203,7 +203,7 @@ a:hover {
   width: 100%;
   position: relative;
   height: 0;
-  padding: 75% 0 0 0;
+  padding: 150% 0 0 0; /*ha landscape wrappert szereték: padding: 75% 0 0 0; */
   overflow: hidden;
 }
 
