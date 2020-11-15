@@ -5,18 +5,6 @@ if ($_SESSION['login'] == 0) {
 	unset($_SESSION['login']); 
 }
 
-/*
-include 'db_conn.php';
-
-$sql = '
-SELECT AdvertisementsImages.Image1, Advertisements.AdvertisementId, Advertisements.Summary, Advertisements.Price, Advertisements.PlaceOfReceipt, Advertisements.CreateDate FROM Advertisements
-JOIN AdvertisementsImages
-ON AdvertisementsImages.AdvertisementId = Advertisements.AdvertisementId
-';
-$result = $conn->query($sql);
-$num_rows = mysqli_num_rows($result);
-$conn->close();
-*/
 ?>
 
 <!DOCTYPE html>

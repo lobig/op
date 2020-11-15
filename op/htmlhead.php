@@ -2,7 +2,7 @@
 echo '
 
 <head>
-<title>Online piac</title>
+<title></title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="https://64.media.tumblr.com/5845a476f93a43a8651a20737ee70e97/tumblr_nv5obzYWqM1uhn5ypo1_r3_1280.png" type="image/png">
